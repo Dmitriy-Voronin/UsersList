@@ -1,0 +1,12 @@
+.userLike {
+  position: relative;
+  align-self: flex-end;
+  padding: 8px;
+  border-radius: 4px;
+  background: var(--gray-light);
+  z-index: 1;
+}
+
+.userLike:hover path {
+  fill: red;
+}

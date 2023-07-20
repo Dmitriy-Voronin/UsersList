@@ -1,0 +1,48 @@
+.label {
+  padding-top: 16px;
+  margin-bottom: 8px;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 136%;
+}
+
+.inputWrap {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  padding: 12px 8px 12px 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  min-height: 48px;
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--gray-light);
+}
+
+input[type="password"] {
+  padding-right: 36px;
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: 400;
+  font-size: 8px;
+	font-variant: normal;
+	text-transform: none;
+	letter-spacing: 2px;
+}
+
+.input[aria-invalid] {
+  border-color: var(--red);
+}
+
+.inputIcon {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+}

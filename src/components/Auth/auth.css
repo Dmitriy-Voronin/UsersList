@@ -1,0 +1,92 @@
+.auth_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.authWrap {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.auth {
+  padding: 16px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  background: var(--white);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.fieldset {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: none;
+
+}
+
+.legend {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.error {
+  display: block;
+  padding-top: 8px;
+  color: var(--red);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btnWrap {
+  padding-top: 16px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 13px;
+  border-radius: 8px;
+  width: 100%;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 136%;
+  background-color: var(--violet);
+  transition: opacity .3s ease;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+.btn_loading {
+  opacity: .7;
+}
+
+.spinner {
+  width: 22px;
+}
+
+@media (max-width: 425px) {
+  .auth_container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.btn {
+  align-self: center;
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.btn:hover {
+  color: var(--white);
+}
