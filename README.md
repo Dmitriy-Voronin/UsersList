@@ -8,7 +8,7 @@
 Попробовать в работе сайт: https://dmitriy-voronin.github.io/UsersList-prod
 
 Для входа:</br>
-e-mail: eve.holt@reqres.in,</br>
+email: eve.holt@reqres.in,</br>
 password: pistol
 
 При разработке использованы: React, Redux Toolkit, TypeScript, HTML, CSS
