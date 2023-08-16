@@ -11,4 +11,4 @@
 email: eve.holt@reqres.in,</br>
 password: pistol
 
-При разработке использованы: React, Redux Toolkit, TypeScript, HTML, CSS
+При разработке использованы: React, Redux Toolkit, TypeScript, HTML, CSS, Webpack
